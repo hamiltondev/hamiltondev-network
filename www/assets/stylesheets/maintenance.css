@@ -1,0 +1,55 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+
+  margin: 0;
+
+  background: #AA0000;
+  background-image: linear-gradient(to bottom right, #D30000, #540000);
+}
+
+body .page-logo {
+  position: fixed;
+
+  background: url(../images/logos/logo-medium.png) no-repeat;
+
+  width: 1048px;
+  height: 1048px;
+
+  right: -100px;
+  bottom: -250px;
+
+  -ms-transform: rotate(-10deg); /* IE 9 */
+  -webkit-transform: rotate(-10deg); /* Safari */
+  transform: rotate(-10deg);
+
+  opacity: .7;
+}
+
+body .element-logo {
+  position: fixed;
+
+  background: url(../images/logos/logo-full.png) no-repeat;
+  background-size: 100%;
+
+  width: 531px;
+  height: 124px;
+
+  left: -127px;
+  right: 0;
+
+  top: 20%;
+
+  filter: invert(100%);
+
+  margin: 0 auto;
+
+  transition: .6s all ease;
+}
+
+body .element-logo:hover {
+  filter: invert(0%);
+}
