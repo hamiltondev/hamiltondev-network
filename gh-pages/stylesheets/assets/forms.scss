@@ -1,0 +1,13 @@
+form {
+  input {
+    box-sizing: border-box;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  input[type=submit] {
+    cursor: pointer;
+  }
+}

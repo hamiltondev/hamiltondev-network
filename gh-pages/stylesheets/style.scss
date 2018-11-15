@@ -1,0 +1,17 @@
+@import 'variables';
+
+@import 'assets/fonts';
+@import 'assets/forms';
+
+@import 'assets/containers';
+
+@import 'assets/header';
+@import 'assets/banner';
+@import 'assets/featured';
+@import 'assets/footer';
+
+body {
+  margin: 0;
+
+  background: #4948B0;
+}

@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "PT Sans";
+  src: url("../fonts/PT_Sans-Web-Regular.ttf") format("ttf");
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16pt;
+  
+  color: #707070;
+
+  line-height: 25px;
+
+  p, h2 {
+  }
+
+  p {
+    margin: 20px 0;
+  
+    font-size: 18px;
+  }
+
+  p.p-small {
+    font-size: 15px;
+    font-weight: 400;
+    font-style: italic;
+
+    color: gray;
+  }
+
+  h2 {
+    font-size: 40px;
+    line-height: 40px;
+
+    font-weight: 700;
+
+    text-transform: capitalize;
+
+    margin: 0;
+  }
+
+  h3 {
+    font-size: 30px;
+    line-height: 30px;
+
+    font-weight: 700;
+
+    margin: 0 0 20px;
+  }
+}

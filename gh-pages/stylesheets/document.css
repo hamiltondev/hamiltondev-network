@@ -1,0 +1,159 @@
+@font-face {
+  font-family: "PT Sans";
+  src: url("../fonts/PT_Sans-Web-Regular.ttf") format("ttf");
+}
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16pt;
+  color: #707070;
+  line-height: 25px;
+}
+body p {
+  margin: 20px 0;
+  font-size: 18px;
+}
+body p.p-small {
+  font-size: 15px;
+  font-weight: 400;
+  font-style: italic;
+  color: gray;
+}
+body h2 {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 0;
+}
+body h3 {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 700;
+  margin: 0 0 20px;
+}
+
+form input {
+  box-sizing: border-box;
+}
+form input:focus {
+  outline: none;
+}
+form input[type=submit] {
+  cursor: pointer;
+}
+
+.container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  display: table;
+}
+@media screen and (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+.container .content {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#header {
+  background: #FFF;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0px 0px 15px -1px rgba(0, 0, 0, 0.75);
+}
+#header .container {
+  height: 75px;
+}
+#header #logo {
+  background: url(../images/logo.png);
+  width: 419px;
+  height: 48px;
+}
+
+#banner {
+  background: url(../images/banners/banner-1.png);
+  width: 100%;
+  height: 70vh;
+  text-align: center;
+  color: #FFF;
+}
+#banner .container {
+  height: 70vh;
+}
+#banner #subscribe {
+  width: 50%;
+  height: 60px;
+  margin: 0 25%;
+  background: #FFF;
+  border: 3px solid #FFF;
+  border-radius: 5px;
+  position: relative;
+}
+#banner #subscribe #email {
+  width: 74%;
+  height: 60px;
+  padding: 0 25px;
+  font-size: 16px;
+  position: absolute;
+  left: 0;
+  border: none;
+}
+#banner #subscribe #submit {
+  width: 25%;
+  height: 60px;
+  position: absolute;
+  right: 0;
+  border: solid 1px #6067ea;
+  border-radius: 5px;
+  background-color: #6067ea;
+  font-size: 16px;
+  color: #FFF;
+  transition: 0.7s ease all;
+}
+#banner #subscribe #submit:hover {
+  background: #000;
+}
+
+#featured {
+  background: #FFF;
+  width: 100%;
+  text-align: center;
+  padding: 100px 0;
+  color: #252525;
+}
+#featured .container {
+  height: auto;
+}
+
+#footer {
+  background: #4341A6;
+  background-image: linear-gradient(45deg, #313177, #656AF2);
+  width: 100%;
+  text-align: center;
+  padding: 100px 0;
+}
+
+body {
+  margin: 0;
+  background: #4948B0;
+}
+
+/*# sourceMappingURL=document.css.map */
