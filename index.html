@@ -25,9 +25,13 @@
 
           <form method="post" action="https://getsimpleform.com/messages?form_api_token=06b0d48ae156d3b6285ae5f6a49ba5fc">
             <input type="hidden" name="redirect_to" value="https://hamiltondev.net/index.html">
+
+            <!--
+              TODO: add an AJAX form handler to validate entry & throw errors.
+            -->
             
             <div id="subscribe">  
-              <input id="email" name="email" type="email" placeholder="example@domain.com">
+              <input id="email" name="email" type="email" placeholder="example@domain.com" required>
 
               <input id="submit" type="submit" value="Subscribe">
             </div>
