@@ -117,7 +117,7 @@ form input[type=submit] {
 }
 #banner #subscribe {
   width: 50%;
-  height: 60px;
+  height: 65px;
   margin: 0 25%;
   background: #FFF;
   border: 3px solid #FFF;
@@ -125,7 +125,7 @@ form input[type=submit] {
   position: relative;
 }
 #banner #subscribe #email {
-  width: 74%;
+  width: 75%;
   height: 60px;
   padding: 0 25px;
   font-size: 16px;
@@ -176,7 +176,7 @@ form input[type=submit] {
   position: absolute;
   width: 160px;
   height: 160px;
-  padding: 5px;
+  margin: 5px;
   left: 0;
 }
 
@@ -272,6 +272,10 @@ form input[type=submit] {
 body {
   margin: 0;
   background: #4948B0;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 /*# sourceMappingURL=document.css.map */
