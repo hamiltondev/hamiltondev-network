@@ -40,13 +40,36 @@ body {
   }
 
   h3 {
-
     color: #252525;
+    
     font-size: 30px;
     line-height: 30px;
 
     font-weight: 700;
 
     margin: 0 0 20px;
+  }
+
+  h4 {
+    color: #252525;
+    
+    font-size: 20px;
+    line-height: 20px;
+
+    font-weight: 700;
+
+    margin: 0 0 20px;
+  }
+
+  a {
+    text-decoration: none;
+
+    transition: all .4s ease 0s;
+
+    color: inherit;
+
+    &:hover {
+      color: #6067EA;
+    }
   }
 }
