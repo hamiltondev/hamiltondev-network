@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>r6 json</title>
+
+    <style type="text/css">
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>#</th>
+        <th>Context</th>
+      </tr>
+    </table>
+
+    <script type="text/javascript" src="scripts/jquery.min.js"></script>
+  
+    <script type="text/javascript">
+      $.getJSON("r6-json.json", function(data) {
+        $.each(data, function(index, value) {
+          $("table").append("<tr><td>" + value[0] + "</td><td>" + value[1] + "</td></tr>");
+        });
+      });
+    </script>
+  </body>
+</html>
